@@ -1,0 +1,33 @@
+PODS:
+  - GiphyCoreSDK (1.4.2)
+  - GiphyPicker (0.1.1):
+    - GiphyCoreSDK (~> 1.4.2)
+    - SDWebImage (~> 5.0.4)
+  - GiphyPicker/UnitTests (0.1.1):
+    - GiphyCoreSDK (~> 1.4.2)
+    - SDWebImage (~> 5.0.4)
+  - SDWebImage (5.0.4):
+    - SDWebImage/Core (= 5.0.4)
+  - SDWebImage/Core (5.0.4)
+
+DEPENDENCIES:
+  - GiphyPicker (from `../`)
+  - GiphyPicker/UnitTests (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GiphyCoreSDK
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  GiphyPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GiphyCoreSDK: 1a89e03e55dc6b636b9d40fde76107867dbb9da5
+  GiphyPicker: 5f51144e3960b0993258317e83fe4cb6cc3051a2
+  SDWebImage: c739016e4bdf0a4a1f9a04b5e0385395ad63a282
+
+PODFILE CHECKSUM: 3b9dd1917eda02dce0236ebb44ddf13a04036147
+
+COCOAPODS: 1.11.2
